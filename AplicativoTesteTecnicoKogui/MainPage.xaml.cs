@@ -23,7 +23,7 @@ namespace AplicativoTesteTecnicoKogui
         public ObservableCollection<ChaveCor> Lista { get; set; }
         = new ObservableCollection<ChaveCor> { new ChaveCor("MagentaFuchsia", ""), new ChaveCor("White", "para"),
                 new ChaveCor("Blue", "Pares"), new ChaveCor("Green", "alterar"), new ChaveCor("Black", "#"),
-                new ChaveCor("WebOrange", "e"), new ChaveCor("Yellow", "impares"), new ChaveCor("Red", " "),
+                new ChaveCor("WebOrange", "e"), new ChaveCor("Yellow", "impares"), new ChaveCor("Red", "\" \""),
                 new ChaveCor("Coconut", "Busca"), new ChaveCor("CyanAqua", "primos") };
 
         public MainPage()

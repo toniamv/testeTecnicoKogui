@@ -177,3 +177,4 @@ D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\
 D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AplicativoTesteTecnicoKogui.sourcelink.json

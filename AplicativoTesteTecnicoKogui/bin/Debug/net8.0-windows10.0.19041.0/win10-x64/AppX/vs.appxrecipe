@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-10-01T00:04:08.083</Modified>
+      <Modified>2025-10-01T23:17:31.400</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-09-30T22:17:40.764</Modified>
+      <Modified>2025-10-01T22:18:33.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AplicativoTesteTecnicoKogui.runtimeconfig.json">
       <PackagePath>AplicativoTesteTecnicoKogui.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AplicativoTesteTecnicoKogui.dll">
       <PackagePath>AplicativoTesteTecnicoKogui.dll</PackagePath>
-      <Modified>2025-10-01T00:04:07.720</Modified>
+      <Modified>2025-10-01T23:17:30.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AplicativoTesteTecnicoKogui.exe</PackagePath>
-      <Modified>2025-10-01T00:04:07.727</Modified>
+      <Modified>2025-10-01T23:17:30.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AplicativoTesteTecnicoKogui.deps.json">
       <PackagePath>AplicativoTesteTecnicoKogui.deps.json</PackagePath>
-      <Modified>2025-09-30T22:17:40.055</Modified>
+      <Modified>2025-10-01T22:18:33.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gmav1\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
