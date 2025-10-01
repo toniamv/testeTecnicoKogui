@@ -1,0 +1,1 @@
+D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui.csproj;x64
