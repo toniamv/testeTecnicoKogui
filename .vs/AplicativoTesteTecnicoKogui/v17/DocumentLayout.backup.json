@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\projetosVisualStudio\\AplicativoTesteTecnicoKogui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|d:\\projetosvisualstudio\\aplicativotestetecnicokogui\\aplicativotestetecnicokogui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|solutionrelative:aplicativotestetecnicokogui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|d:\\projetosvisualstudio\\aplicativotestetecnicokogui\\aplicativotestetecnicokogui\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|solutionrelative:aplicativotestetecnicokogui\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|d:\\projetosvisualstudio\\aplicativotestetecnicokogui\\aplicativotestetecnicokogui\\models\\chavecor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|solutionrelative:aplicativotestetecnicokogui\\models\\chavecor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|d:\\projetosvisualstudio\\aplicativotestetecnicokogui\\aplicativotestetecnicokogui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|solutionrelative:aplicativotestetecnicokogui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|d:\\projetosvisualstudio\\aplicativotestetecnicokogui\\aplicativotestetecnicokogui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|solutionrelative:aplicativotestetecnicokogui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|d:\\projetosvisualstudio\\aplicativotestetecnicokogui\\aplicativotestetecnicokogui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|solutionrelative:aplicativotestetecnicokogui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|d:\\projetosvisualstudio\\aplicativotestetecnicokogui\\aplicativotestetecnicokogui\\models\\chavecor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|solutionrelative:aplicativotestetecnicokogui\\models\\chavecor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|d:\\projetosvisualstudio\\aplicativotestetecnicokogui\\aplicativotestetecnicokogui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|d:\\projetosvisualstudio\\aplicativotestetecnicokogui\\aplicativotestetecnicokogui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|solutionrelative:aplicativotestetecnicokogui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|d:\\projetosvisualstudio\\aplicativotestetecnicokogui\\aplicativotestetecnicokogui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|solutionrelative:aplicativotestetecnicokogui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F531C2-0E95-41F7-9772-AAC6955E48CD}|AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui.csproj|d:\\projetosvisualstudio\\aplicativotestetecnicokogui\\aplicativotestetecnicokogui\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -81,11 +81,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ChaveCor.cs",
               "DocumentMoniker": "D:\\projetosVisualStudio\\AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui\\Models\\ChaveCor.cs",
               "RelativeDocumentMoniker": "AplicativoTesteTecnicoKogui\\Models\\ChaveCor.cs",
@@ -93,38 +93,37 @@
               "RelativeToolTip": "AplicativoTesteTecnicoKogui\\Models\\ChaveCor.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T00:22:16.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T00:22:16.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "D:\\projetosVisualStudio\\AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "AplicativoTesteTecnicoKogui\\MainPage.xaml.cs",
               "ToolTip": "D:\\projetosVisualStudio\\AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui\\MainPage.xaml.cs",
               "RelativeToolTip": "AplicativoTesteTecnicoKogui\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T22:57:17.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\projetosVisualStudio\\AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui\\MainPage.xaml",
               "RelativeDocumentMoniker": "AplicativoTesteTecnicoKogui\\MainPage.xaml",
-              "ToolTip": "D:\\projetosVisualStudio\\AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui\\MainPage.xaml*",
-              "RelativeToolTip": "AplicativoTesteTecnicoKogui\\MainPage.xaml*",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAD4AAABIAAAAAAAAAA==",
+              "ToolTip": "D:\\projetosVisualStudio\\AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui\\MainPage.xaml",
+              "RelativeToolTip": "AplicativoTesteTecnicoKogui\\MainPage.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAFEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-09-30T22:53:20.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "D:\\projetosVisualStudio\\AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui\\MauiProgram.cs",
               "RelativeDocumentMoniker": "AplicativoTesteTecnicoKogui\\MauiProgram.cs",
@@ -137,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\projetosVisualStudio\\AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui\\App.xaml.cs",
               "RelativeDocumentMoniker": "AplicativoTesteTecnicoKogui\\App.xaml.cs",
@@ -145,8 +144,7 @@
               "RelativeToolTip": "AplicativoTesteTecnicoKogui\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T17:26:05.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T17:26:05.473Z"
             },
             {
               "$type": "Document",
@@ -163,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\projetosVisualStudio\\AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui\\App.xaml",
               "RelativeDocumentMoniker": "AplicativoTesteTecnicoKogui\\App.xaml",
@@ -176,13 +174,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainPageViewModel.cs",
               "DocumentMoniker": "D:\\projetosVisualStudio\\AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui\\ViewModels\\MainPageViewModel.cs",
               "RelativeDocumentMoniker": "AplicativoTesteTecnicoKogui\\ViewModels\\MainPageViewModel.cs",
               "ToolTip": "D:\\projetosVisualStudio\\AplicativoTesteTecnicoKogui\\AplicativoTesteTecnicoKogui\\ViewModels\\MainPageViewModel.cs",
               "RelativeToolTip": "AplicativoTesteTecnicoKogui\\ViewModels\\MainPageViewModel.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAUwCgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACIAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T00:33:58.827Z",
               "EditorCaption": ""
@@ -197,8 +195,7 @@
               "RelativeToolTip": "AplicativoTesteTecnicoKogui\\Models\\ColorInfo.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA6wB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T16:48:43.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T16:48:43.133Z"
             },
             {
               "$type": "Document",
@@ -223,8 +220,7 @@
               "RelativeToolTip": "AplicativoTesteTecnicoKogui\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-02T18:19:57.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T18:19:57.455Z"
             },
             {
               "$type": "Document",

@@ -30,29 +30,33 @@
     <AppXManifest Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-10-02T21:55:35.081</Modified>
+      <Modified>2025-10-02T23:03:32.206</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-10-02T00:49:43.470</Modified>
+      <Modified>2025-10-02T22:56:44.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AplicativoTesteTecnicoKogui.runtimeconfig.json">
       <PackagePath>AplicativoTesteTecnicoKogui.runtimeconfig.json</PackagePath>
-      <Modified>2025-10-02T00:49:43.017</Modified>
+      <Modified>2025-10-02T22:36:34.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AplicativoTesteTecnicoKogui.dll">
       <PackagePath>AplicativoTesteTecnicoKogui.dll</PackagePath>
-      <Modified>2025-10-02T21:55:34.570</Modified>
+      <Modified>2025-10-02T23:03:31.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AplicativoTesteTecnicoKogui.exe</PackagePath>
-      <Modified>2025-10-02T21:55:34.580</Modified>
+      <Modified>2025-10-02T23:03:31.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2025-09-30T22:15:25.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\Resources\Raw\matriz.txt">
+      <PackagePath>matriz.txt</PackagePath>
+      <Modified>2025-10-01T18:16:44.841</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
@@ -288,7 +292,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AplicativoTesteTecnicoKogui.deps.json">
       <PackagePath>AplicativoTesteTecnicoKogui.deps.json</PackagePath>
-      <Modified>2025-10-02T00:49:42.954</Modified>
+      <Modified>2025-10-02T22:56:44.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gmav1\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -297,6 +301,10 @@
     <AppxPackagedFile Include="C:\Users\gmav1\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-11-11T17:23:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gmav1\.nuget\packages\communitytoolkit.mvvm\8.4.0\lib\net8.0-windows10.0.17763\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2024-12-12T07:54:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gmav1\.nuget\packages\microsoft.extensions.configuration\9.0.9\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>

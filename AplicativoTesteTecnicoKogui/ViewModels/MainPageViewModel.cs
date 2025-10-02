@@ -1,11 +1,14 @@
-﻿using System.Collections.ObjectModel;
-using AplicativoTesteTecnicoKogui.Models;
+﻿using AplicativoTesteTecnicoKogui.Models;
 using AplicativoTesteTecnicoKogui.Services;
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using System.Collections.ObjectModel;
+using System.Text;
 
 
 namespace AplicativoTesteTecnicoKogui.ViewModels;
 
-public class MainPageViewModel
+public partial class MainPageViewModel : ObservableObject
 {
     private readonly IColorApiService _api;
 
@@ -15,21 +18,29 @@ public class MainPageViewModel
     public List<string> APIEntrada = new List<string> {"#0000FF", "#00FF00", "#FFFFFF", "#FF0000", "#FFA500", "#FFFF00", "#000000"};
     public string APIEntradaUnida => string.Join(" ", APIEntrada);
 
+    [ObservableProperty]
+    private string fraseDicaFinal = "";
+
+    [ObservableProperty]
+    private string matrizRenderizada = ""; // será exibido no XAML, com quebras de linha
+
 
     public MainPageViewModel(IColorApiService api)
     {
         _api = api;
         //Preenchendo dicionario com cores estabelecidas na lista
-        List<ChaveCor> listaInicial = new List<ChaveCor> { new ChaveCor("MagentaFuchsia", ""), new ChaveCor("White", "para"),
+        List<ChaveCor> listaInicial = new List<ChaveCor> { new ChaveCor("Magenta Fuchsia", ""), new ChaveCor("White", "para"),
                   new ChaveCor("Blue", "Pares"), new ChaveCor("Green", "alterar"), new ChaveCor("Black", "#"),
-                  new ChaveCor("WebOrange", "e"), new ChaveCor("Yellow", "impares"), new ChaveCor("Red", "\" \""),
-                  new ChaveCor("Coconut", "Busca"), new ChaveCor("CyanAqua", "primos")};
+                  new ChaveCor("Web Orange", "e"), new ChaveCor("Yellow", "impares"), new ChaveCor("Red", "\" \""),
+                  new ChaveCor("Coconut", "Busca"), new ChaveCor("Cyan Aqua", "primos")};
 
         
         foreach (ChaveCor cor in listaInicial)
         {
             Lista.Add(cor.Cor, cor);
         }
+
+        CarregarMatrizAsync();
     }
     public async Task BuscarTodosEmOrdemAsync()
     {
@@ -38,6 +49,8 @@ public class MainPageViewModel
         {
             await BuscarAsync(entrada); // garante a ordem da lista de entrada
         }
+        
+        FraseDicaFinal = string.Join(" ", ItensBuscados.Select(i => i.Componente));
     }
 
     public async Task BuscarAsync(string InputHex)
@@ -71,5 +84,56 @@ public class MainPageViewModel
             // sem internet
             Console.WriteLine("Error: Http Request Failed");
         }
+    }
+
+    public async Task CarregarMatrizAsync()
+    {
+        try
+        {
+            using var stream = await FileSystem.OpenAppPackageFileAsync("matriz.txt");
+            using var reader = new StreamReader(stream);
+
+            // Lê tudo mantendo quebras de linha
+            string conteudo = await reader.ReadToEndAsync();
+            MatrizRenderizada = ProcessarConteudo(conteudo);
+        }
+        catch (Exception ex)
+        {
+            // exibir algo amigável em produção; aqui fica simples para depuração
+            MatrizRenderizada = $"Erro ao ler matriz.txt: {ex.Message}";
+        }
+    }
+
+    // Processa caractere por caractere
+    private string ProcessarConteudo(string conteudo)
+    {
+        var sb = new StringBuilder(conteudo.Length);
+
+        foreach (char ch in conteudo)
+        {
+            // preserva \r e \n (quebras de linha de Win/Mac/Linux)
+            if (ch == '\n' || ch == '\r')
+            {
+                sb.Append(ch);
+                continue;
+            }
+
+            if (char.IsDigit(ch))
+            {
+                int valor = ch - '0';
+                sb.Append((valor % 2 == 0) ? ' ' : '#');
+            }
+            else if (ch == ' ' || ch == '\t')
+            {
+                sb.Append(ch); // preserva espaços/tabs exatamente
+            }
+            else
+            {
+                // Caso entre algum outro caractere, mantém
+                sb.Append(ch);
+            }
+        }
+
+        return sb.ToString();
     }
 }

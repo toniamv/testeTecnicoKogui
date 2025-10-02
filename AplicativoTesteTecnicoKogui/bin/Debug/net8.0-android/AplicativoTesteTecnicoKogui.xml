@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AplicativoTesteTecnicoKogui</name>
+    </assembly>
+    <members>
+        <member name="T:AplicativoTesteTecnicoKogui.ViewModels.MainPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:AplicativoTesteTecnicoKogui.ViewModels.MainPageViewModel.FraseDicaFinal">
+            <inheritdoc cref="F:AplicativoTesteTecnicoKogui.ViewModels.MainPageViewModel.fraseDicaFinal"/>
+        </member>
+        <member name="P:AplicativoTesteTecnicoKogui.ViewModels.MainPageViewModel.MatrizRenderizada">
+            <inheritdoc cref="F:AplicativoTesteTecnicoKogui.ViewModels.MainPageViewModel.matrizRenderizada"/>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FraseDicaFinal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FraseDicaFinal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.MatrizRenderizada">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "MatrizRenderizada" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FraseDicaFinal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FraseDicaFinal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.MatrizRenderizada">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "MatrizRenderizada" generated properties.</summary>
+        </member>
+    </members>
+</doc>
