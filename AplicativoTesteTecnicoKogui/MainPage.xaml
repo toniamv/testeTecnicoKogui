@@ -1,93 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AplicativoTesteTecnicoKogui.MainPage">
 
-    <Shell.TitleView>
-        <Grid Margin="8,6" HorizontalOptions="Start">
-            <Border
-                Padding="14,6"
-                Background="{StaticResource HeaderBg}"       
-                StrokeThickness="0"
-                HorizontalOptions="Start">
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="20"/>
-                </Border.StrokeShape>
-
-               
-                <HorizontalStackLayout Spacing="6">
-                    <Label Text="Kogui"
-                           FontAttributes="Bold"
-                           TextColor="White"
-                           FontSize="18"/>
-                    
-                    <Label Text="Teste DevMobile"
-                           TextColor="{StaticResource HeaderDs}"
-                        FontSize="18"/>
-                    
-                </HorizontalStackLayout>
-            </Border>
-        </Grid>
-    </Shell.TitleView>
-        
     <ScrollView>
-        <VerticalStackLayout
-            Padding="24,16" 
-            Spacing="16" 
-            BackgroundColor="{StaticResource BgColor}">
-           
-            <Image Source="dotnet_bot.png"
-                HeightRequest="140"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot" />
+        <VerticalStackLayout Padding="24" Spacing="14">
 
-            <Label Text="Lista de Itens" Style="{StaticResource HeadlineList}" />
+            <Entry Placeholder="Digite um HEX (ex: FF00FF)"
+             Text="{Binding InputHex, Mode=TwoWay}" />
 
-            <Grid ColumnDefinitions="*,Auto,*"
-                RowDefinitions="Auto"
-                Padding="8,4">
-                <Label Text="Cor" Grid.Column="0" Style="{StaticResource HeaderCell}" />
-                <!-- divisor vertical -->
-                <BoxView Grid.Column="1" WidthRequest="1" BackgroundColor="{StaticResource Divider}" VerticalOptions="Fill" />
-                <Label Text="Componente" Grid.Column="2" Style="{StaticResource HeaderCell}" />
+            <Button Text="Buscar cor" Clicked="OnBuscarClicked" />
+
+            <!-- Cabeçalho -->
+            <Grid ColumnDefinitions="*,Auto,*" Padding="8,4">
+                <Label Text="Cor" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+                <BoxView Grid.Column="1" WidthRequest="1" BackgroundColor="#303446" VerticalOptions="Fill"/>
+                <Label Grid.Column="2" Text="Componente" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
             </Grid>
+            <BoxView HeightRequest="1" BackgroundColor="#303446"/>
 
-            <!-- linha divisoria -->
-            <BoxView HeightRequest="1" BackgroundColor="{StaticResource Divider}" />
-
-            <!-- itens -->
+            <!-- Linhas -->
             <VerticalStackLayout BindableLayout.ItemsSource="{Binding Lista}">
-
                 <BindableLayout.ItemTemplate>
                     <DataTemplate>
-                        <Grid ColumnDefinitions="*,Auto,*" RowDefinitions="Auto" Padding="8,0">
-
-                            <!-- coluna de cores -->
-                            <Label Grid.Column="0"
-                                Text="{Binding Cor}"
-                                Style="{StaticResource RowCell}" />
-
-                            <!-- divisao -->
-                            <BoxView Grid.Column="1" WidthRequest="1" BackgroundColor="{StaticResource Divider}" VerticalOptions="Fill" />
-
-                            <!-- coluna de componentes -->
-                            <Label Grid.Column="2"
-                                Text="{Binding Componente}"
-                                Style="{StaticResource RowCell}" />
-
+                        <Grid ColumnDefinitions="*,Auto,*" Padding="8,0">
+                            <Label Grid.Column="0" Text="{Binding Value.Cor}" HorizontalTextAlignment="Center" Margin="0,6"/>
+                            <BoxView Grid.Column="1" WidthRequest="1" BackgroundColor="#303446" VerticalOptions="Fill"/>
+                            <Label Grid.Column="2" Text="{Binding Value.Componente}" HorizontalTextAlignment="Center" Margin="0,6"/>
                         </Grid>
                     </DataTemplate>
                 </BindableLayout.ItemTemplate>
-
-                <Button
-                x:Name="CounterBtn"
-                Text="Click me" 
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
             </VerticalStackLayout>
+
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>
