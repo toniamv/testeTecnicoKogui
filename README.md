@@ -2,7 +2,7 @@
 
 ### Desenvolvimento de aplicação mobile com .NET MAUI (Android / .NET 8)
 
-Este projeto foi desenvolvido usando o Visual Studio a partir da proposta de teste técnico enviada.  
+Este projeto foi desenvolvido usando o Microsoft Visual Studio 2022 a partir da proposta de teste técnico enviada.  
 De forma geral, permitiu exercitar conceitos fundamentais de **C#**, **.NET MAUI** e **arquitetura de software** aplicados ao contexto de aplicações mobile.
 
 ---
