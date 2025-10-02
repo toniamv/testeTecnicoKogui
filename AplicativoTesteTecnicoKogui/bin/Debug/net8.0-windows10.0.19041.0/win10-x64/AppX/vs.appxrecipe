@@ -30,7 +30,7 @@
     <AppXManifest Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-10-02T17:32:10.825</Modified>
+      <Modified>2025-10-02T21:55:35.081</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AplicativoTesteTecnicoKogui.dll">
       <PackagePath>AplicativoTesteTecnicoKogui.dll</PackagePath>
-      <Modified>2025-10-02T17:32:09.117</Modified>
+      <Modified>2025-10-02T21:55:34.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AplicativoTesteTecnicoKogui.exe</PackagePath>
-      <Modified>2025-10-02T17:32:09.186</Modified>
+      <Modified>2025-10-02T21:55:34.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projetosVisualStudio\AplicativoTesteTecnicoKogui\AplicativoTesteTecnicoKogui\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

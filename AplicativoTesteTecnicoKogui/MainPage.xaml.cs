@@ -8,17 +8,17 @@ namespace AplicativoTesteTecnicoKogui
     // MainPage.xaml.cs
     public partial class MainPage : ContentPage
     {
+        private readonly MainPageViewModel _vm;
         public MainPage(MainPageViewModel vm)
         {
             InitializeComponent();
+            _vm = vm;
             BindingContext = vm;
         }
-
-
-        public async void OnBuscarClicked(object s, EventArgs e)
+        protected override async void OnAppearing()
         {
-            if (BindingContext is MainPageViewModel vm)
-                await vm.BuscarAsync();
+            base.OnAppearing();
+            await _vm.BuscarTodosEmOrdemAsync();
         }
 
     }

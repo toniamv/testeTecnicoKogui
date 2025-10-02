@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AplicativoTesteTecnicoKogui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7abb27d5c1824d2abfcbad4624c039a635b39bbd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4dc96a9efaa0f5c6173a1a6ddfe10c82c3dcdd16")]
 [assembly: System.Reflection.AssemblyProductAttribute("AplicativoTesteTecnicoKogui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AplicativoTesteTecnicoKogui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

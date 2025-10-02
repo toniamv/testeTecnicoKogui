@@ -26,6 +26,7 @@ namespace AplicativoTesteTecnicoKogui
                 client.Timeout = TimeSpan.FromSeconds(10);
             });
 
+            builder.Services.AddTransient<AppShell>();
             builder.Services.AddTransient<MainPageViewModel>();
             builder.Services.AddTransient<MainPage>();
 #if DEBUG

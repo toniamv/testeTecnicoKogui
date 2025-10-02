@@ -5,7 +5,7 @@
         public App(IServiceProvider sp)
         {
             InitializeComponent();
-            MainPage = sp.GetRequiredService<MainPage>();
+            MainPage = sp.GetRequiredService<AppShell>();
         }
     }
 }
