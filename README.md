@@ -1,4 +1,4 @@
-# Teste Técnico Kogui
+# Teste Técnico Kogui - Gabriel Antonio
 
 ### Desenvolvimento de aplicação mobile com .NET MAUI (Android / .NET 8)
 
@@ -56,12 +56,12 @@ A construção seguiu princípios de **separação de camadas**:
 
 Durante a construção do projeto, os seguintes conceitos e práticas foram exercitados:
 
-- **Lógica de Programação**  
-- **Fundamentos de C# e .NET MAUI**  
-- **Padrão de Arquitetura MVVM (Model–View–ViewModel)**  
-- **Consumo de APIs REST 
-- **Noções de Injeção de Dependências (Dependency Injection)**  
-- **Boas práticas de versionamento de código com Git e GitHub**  
+- Lógica de Programação
+- Fundamentos de C# e .NET MAUI
+- Padrão de Arquitetura MVVM (Model–View–ViewModel)
+- Consumo de APIs REST
+- Noções de Injeção de Dependências (Dependency Injection) 
+- Boas práticas de versionamento de código com Git e GitHub 
 
 ---
 
