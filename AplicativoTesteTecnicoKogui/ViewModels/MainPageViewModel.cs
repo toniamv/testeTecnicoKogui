@@ -22,13 +22,12 @@ public partial class MainPageViewModel : ObservableObject
     private string fraseDicaFinal = "";
 
     [ObservableProperty]
-    private string matrizRenderizada = ""; // será exibido no XAML, com quebras de linha
+    private string matrizRenderizada = "";
 
 
     public MainPageViewModel(IColorApiService api)
     {
         _api = api;
-        //Preenchendo dicionario com cores estabelecidas na lista
         List<ChaveCor> listaInicial = new List<ChaveCor> { new ChaveCor("Magenta Fuchsia", ""), new ChaveCor("White", "para"),
                   new ChaveCor("Blue", "Pares"), new ChaveCor("Green", "alterar"), new ChaveCor("Black", "#"),
                   new ChaveCor("Web Orange", "e"), new ChaveCor("Yellow", "impares"), new ChaveCor("Red", "\" \""),
@@ -47,7 +46,7 @@ public partial class MainPageViewModel : ObservableObject
         ItensBuscados.Clear();
         foreach (var entrada in APIEntrada)
         {
-            await BuscarAsync(entrada); // garante a ordem da lista de entrada
+            await BuscarAsync(entrada);
         }
         
         FraseDicaFinal = string.Join(" ", ItensBuscados.Select(i => i.Componente));
@@ -76,12 +75,10 @@ public partial class MainPageViewModel : ObservableObject
         }
         catch (TaskCanceledException)
         {
-            // timeout/cancel
             Console.WriteLine("Error: Timeout");
         }
         catch (HttpRequestException)
         {
-            // sem internet
             Console.WriteLine("Error: Http Request Failed");
         }
     }
@@ -93,13 +90,11 @@ public partial class MainPageViewModel : ObservableObject
             using var stream = await FileSystem.OpenAppPackageFileAsync("matriz.txt");
             using var reader = new StreamReader(stream);
 
-            // Lê tudo mantendo quebras de linha
             string conteudo = await reader.ReadToEndAsync();
             MatrizRenderizada = ProcessarConteudo(conteudo);
         }
         catch (Exception ex)
         {
-            // exibir algo amigável em produção; aqui fica simples para depuração
             MatrizRenderizada = $"Erro ao ler matriz.txt: {ex.Message}";
         }
     }

@@ -5,7 +5,6 @@ using AplicativoTesteTecnicoKogui.Models;
 
 namespace AplicativoTesteTecnicoKogui
 {
-    // MainPage.xaml.cs
     public partial class MainPage : ContentPage
     {
         private readonly MainPageViewModel _vm;

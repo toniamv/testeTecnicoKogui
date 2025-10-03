@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AplicativoTesteTecnicoKogui.MainPage">
@@ -37,9 +36,9 @@
 
             <!-- Cabeçalho -->
             <Grid ColumnDefinitions="*,Auto,*" Padding="8,4">
-                <Label Text="Cor" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+                <Label Text="Cor" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="White"/>
                 <BoxView Grid.Column="1" WidthRequest="1" BackgroundColor="#303446" VerticalOptions="Fill"/>
-                <Label Grid.Column="2" Text="Componente" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+                <Label Grid.Column="2" Text="Componente" TextColor="White" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
             </Grid>
             <BoxView HeightRequest="1" BackgroundColor="#303446"/>
 
@@ -48,9 +47,9 @@
                 <BindableLayout.ItemTemplate>
                     <DataTemplate>
                         <Grid ColumnDefinitions="*,Auto,*" Padding="8,0">
-                            <Label Grid.Column="0" Text="{Binding Value.Cor}" HorizontalTextAlignment="Center" Margin="0,6"/>
+                            <Label Grid.Column="0" Text="{Binding Value.Cor}" HorizontalTextAlignment="Center" Margin="0,6" TextColor="White"/>
                             <BoxView Grid.Column="1" WidthRequest="1" BackgroundColor="#303446" VerticalOptions="Fill"/>
-                            <Label Grid.Column="2" Text="{Binding Value.Componente}" HorizontalTextAlignment="Center" Margin="0,6"/>
+                            <Label Grid.Column="2" Text="{Binding Value.Componente}" HorizontalTextAlignment="Center" Margin="0,6" TextColor="White"/>
                         </Grid>
                     </DataTemplate>
                 </BindableLayout.ItemTemplate>
@@ -94,14 +93,19 @@
 
             <BoxView HeightRequest="1" BackgroundColor="{StaticResource Divider}" Margin="0,12,0,0"/>
 
-            <Label Text="Temos então a imagem de uma Caneca" FontAttributes="Bold"></Label>
+            <Label Text="Temos então a imagem de uma Caneca" FontAttributes="Bold" TextColor="White"></Label>
 
             <Border StrokeThickness="1" Stroke="#404555" Padding="8" StrokeShape="RoundRectangle 8">
                 <ScrollView>
                     <Label Text="{Binding MatrizRenderizada}"
-                           FontFamily="Courier New"
+                           FontFamily="{OnPlatform Android='monospace', iOS='Menlo', MacCatalyst='Menlo', WinUI='Consolas'}"
+                           FontAutoScalingEnabled="False"
                            LineBreakMode="NoWrap"
-                           FontSize="8" />
+                           FontSize="8"
+                           HorizontalTextAlignment="Start"
+                           VerticalTextAlignment="Start"
+                           TextColor="White"
+                           />
                 </ScrollView>
             </Border>
 
